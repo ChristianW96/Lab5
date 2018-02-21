@@ -30,6 +30,10 @@ public class BankAccount {
         /*
          * Implement this function
          */
+    
+
+
+
     }
 
     public void setAccountNumber(int setAccountNumber) {
@@ -58,7 +62,7 @@ public class BankAccount {
     }
 
     public void setInterestEarned(double setInterestEarned) {
-        setInterestRate = this.interestEarned;
+        setInterestEarned = this.interestEarned;
     }
 
     public double getInterestEarned() {
