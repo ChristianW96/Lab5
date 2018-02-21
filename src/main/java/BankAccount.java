@@ -33,7 +33,7 @@ public class BankAccount {
     }
 
     public void setAccountNumber(int setAccountNumber) {
-        this.accountNumber = setAccountNumber;
+        setAccountNumber = this.accountNumber;
     }
 
     public int getAccountNumber() {
@@ -41,18 +41,27 @@ public class BankAccount {
     }
 
     public void setAccountBalance(double setAccountBalance) {
-        this.accountBalance = setAccountBalance;
+        setAccountBalance = this.accountBalance;
 
     }
+
     public double getAccountBalance() {
         return this.accountBalance;
     }
+
     public void setOwnerName(String setOwnerName) {
-        this.ownerName = setOwnerName;
+        setOwnerName = this.ownerName;
     }
 
     public String getOwnerName() {
         return this.ownerName;
     }
-}
 
+    public void setInterestEarned(double setInterestEarned) {
+        setInterestRate = this.interestEarned;
+    }
+
+    public double getInterestEarned() {
+        return this.interestEarned;
+    }
+}
